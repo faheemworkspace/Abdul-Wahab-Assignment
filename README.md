@@ -5,11 +5,11 @@ Using Dockers Command Line :
 2- Go to Backend folder and go to address bar, open cmd, type 
 => docker build -t Backend .
 After process completes, run 
-=> docker run -dp Backend
+=> docker run -dp 3000:3000 Backend
 3- Go to Frontend folder and go to address bar, open cmd, type 
 => docker build -t Frontend .
 After process completes, run 
-=> docker run -dp Frontend
+=> docker run -dp 4200:4200 Frontend
 Frontend will take a couple of minutes to load.
 
 After a few minutes go to browser, type localhost:4200 to check the example.
